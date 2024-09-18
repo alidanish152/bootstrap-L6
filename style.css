@@ -1,0 +1,19 @@
+/* Set fixed height for the carousel */
+
+.carousel-item {
+
+    height: 500px; /* Adjust the height as needed */
+    
+    }
+    
+    /* Ensure the images fill the carousel item and are centered */
+    
+    .carousel-item img {
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    object-fit: cover; /* Maintain aspect ratio and crop overflow */
+    
+    }
